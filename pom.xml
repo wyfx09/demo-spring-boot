@@ -41,6 +41,13 @@
             <version>1.18.10</version>
             <scope>provided</scope>
         </dependency>
+
+        <!--start 切面相关的依赖-->
+        <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <!--end 切面相关的依赖-->
     </dependencies>
 
     <build>
